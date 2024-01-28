@@ -1,0 +1,62 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": true,
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "templates/default/TemplateName.tsx",
+        "index": "templates/default/index.ts"
+      },
+      "path": "src/components",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "withIndex": true
+    },
+    "pages": {
+      "customTemplates": {
+        "component": "templates/pages/TemplateName.tsx",
+        "index": "templates/pages/index.ts"
+      },
+      "path": "src/pages ",
+      "withIndex": true,
+      "withLazy": true
+    },
+    "entities": {
+      "customTemplates": {
+        "component": "templates/entities/TemplateName.tsx",
+        "index": "templates/entities/index.ts"
+      },
+      "path": "src/entities ",
+      "withIndex": true
+    },
+    "features": {
+      "customTemplates": {
+        "component": "templates/features/TemplateName.tsx",
+        "index": "templates/features/index.ts"
+      },
+      "path": "src/features ",
+      "withIndex": true
+    },
+    "widgets": {
+      "customTemplates": {
+        "component": "templates/widgets/TemplateName.tsx",
+        "index": "templates/widgets/index.ts"
+      },
+      "path": "src/widgets ",
+      "withIndex": true
+    },
+    "shared": {
+      "customTemplates": {
+        "component": "templates/shared/TemplateName.tsx",
+        "index": "templates/shared/ui/index.ts"
+      },
+      "path": "src/shared/ui ",
+      "withIndex": true
+    }
+  },
+  "usesCssModule": false,
+  "cssPreprocessor": "scss"
+}
